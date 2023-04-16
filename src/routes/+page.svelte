@@ -24,15 +24,15 @@ filter: blur(200px);
 
     }
 .ecimg{
+
 position: absolute;
 top:60px;
-left:650px ;
+left:750px ;
 width:340px;
 }
 .botname{
 width: 517px;
 height: 100px;
-
 
 font-family: 'Syne';
 font-style: normal;
@@ -48,6 +48,7 @@ color: #FFFFFF;
 
 }
 .botdesc{
+
 width: 581px;
 height: 52px;
 font-family: 'Golos Text', sans-serif;
