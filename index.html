@@ -1,0 +1,261 @@
+<html>
+    <head>
+        <title>
+            Kabir Chat Bot
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Syne:wght@800&display=swap');
+            body{
+                background: #011bfe;
+
+            }
+            .ec{
+
+/* Ellipse 7 */
+
+position: absolute;
+width: 340px;
+height: 340px;
+left: 800px;
+top: 264px;
+
+background: #000000;
+filter: blur(200px);
+
+            }
+.ecimg{
+
+    width:300px;
+}
+.botname{
+
+
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+
+color: #FFFFFF;
+
+
+}
+.botdesc{
+font-family: 'Golos Text', sans-serif;
+font-style: normal;
+font-size: 18px;
+width:80%;
+
+
+margin-top: -20px;
+color: rgba(255, 255, 255, 0.7);
+
+}
+.botbtn{
+margin-top: 40px;
+border-style: none;
+font-family: 'Syne';
+font-style: normal;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 44px;
+gap: 10px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+.usrtxt{
+    font-family: 'Golos Text', sans-serif;
+    color:white;
+    margin-top: 30px;
+}
+.lft{
+    margin-left: 80px;
+}
+.profile{
+
+    width: 50px;
+    height: 50px;
+ 
+
+background: url('kabir.png');
+}
+.navbar{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.navlogo{
+    width:175px;
+    margin-left: 70px;
+    font-family: 'Golos Text', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Golos Text', sans-serif;
+    margin-left:36px;
+    margin-top:-10px;
+}
+.wabtn{
+    padding: 16px;
+    background-color: #000000;
+    color:white;
+    border: none;
+    width:247px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 100px;
+    border-radius: 10px;
+    float: right;
+    margin-right:30px;
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width:90%;
+}
+.col{
+    width: 100%;
+    margin-top: 40px;
+}
+.left{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1020px)  {
+    .wabtn{
+        display: none;
+    }
+    }
+@media (max-width: 700px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: #0d0e10;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #9f9a9a;
+    height: 2.5em;
+    padding: 0.5em;
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: black;
+    background-color: #E8E8E8;
+    
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+ 
+  }
+}''
+
+
+
+
+</style>
+    </head>
+    <body>
+        <div class="navbar" id="myLinks">      <label class="menu-button-container" for="menu-toggle">
+<div></div>
+
+  <nav role="navigation" class="nav-menu w-nav-menu">
+
+
+            <img class="navlogo" src="logo.png">
+            <a href="aboutpage.html" class="nav-link w-nav-link">About</a>
+            <a href="privacypage.html" class="nav-link w-nav-link">Privacy Policy</a>
+            <button class="wabtn" class="nav-link w-nav-link">Chat on Whatsapp</button>
+ 
+  </a>
+        </div>
+
+    <div class="col">
+    <div class="w3-row row">
+    <div class="w3-half left">
+    <div >
+        <span class="botname">KABIR</span><br><br>
+        <p class="botdesc">Knowledgeable Artificial Intelligence Bot for Investigating and Resolving cybercrimes</p>
+        <button class="botbtn">GET STARTED</button>
+    </div>
+    <div>
+        <p class="usrtxt">Already helped more than 1000+ users 💙
+            <div class="users" >
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+                <img class="profile"src="dp.png">
+            </div>
+        </p>
+    
+
+        
+    </div>
+</div>
+    
+    <div class="right w3-half">
+        <center>
+        <img class="ecimg" src="kabir.png">
+    </center>
+        <div class="ec">
+        </div>
+    </div>
+</div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+    </body>
+    
+</html>
